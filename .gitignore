@@ -1,24 +1,34 @@
-# Compiled Object files
-*.o
-*.obj
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+.vscode/
+npm-debug.log*
+.env
+.idea/
+.ionic/
+.sourcemaps/
+.sass-cache/
+.tmp/
+.versions/
+coverage/
+www/
+node_modules/
+tmp/
+temp/
+platforms/
+plugins/
+plugins/android.json
+plugins/ios.json
+$RECYCLE.BIN/
 
-# Compiled Static libraries
-*.a
-*.lib
-
-# Executables
-*.exe
-
-# DUB
-.dub
-docs.json
-__dummy.html
-docs/
-
-# Code coverage
-*.lst
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
